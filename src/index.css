@@ -1,0 +1,392 @@
+body {
+    background-color: black;
+    color: white;
+}
+.navbar{
+    margin-bottom: 0
+}
+.welcome {
+    padding:120px 20px;
+    text-align: left;
+    background: black;
+}
+
+.welcome-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.simple-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px solid;
+    background: transparent;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.simple-btn:hover {
+    background: limegreen;
+    color: black;
+}
+
+.about-page {
+    background-color: black;
+    padding: 60px 20px;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.page-title {
+    color: green;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.page-text {
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid darkgray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.feature {
+    padding-left: 20px;
+    font-size: 16px;
+    color: lightgray;
+}
+
+.feature li {
+    margin-bottom: 8px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: 1px solid green;
+    color: white;
+}
+
+.back-btn:hover {
+    background-color: green;
+    color: black;
+}
+
+.detail {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid green;
+    color: white;
+    background-color: black;
+}
+
+.detail summary {
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.discover-page {
+    background-color: black;
+    padding: 60px 20px;
+    color: white;
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.discover-box {
+    width: 250px;
+    height: 150px;
+    background-color: darkslategray;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+
+
+.discover-box:hover {
+    background-color: green;
+    color: black;
+
+}
+.artists-table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: darkslategray
+}
+.artists-table th{
+    background-color: green;
+    color: black;
+    padding: 15px;
+    font-size: large;
+}
+.artists-table td{
+    padding: 12px;
+    border-bottom: 1px solid black;
+    color: white;
+}
+.artists-table tr:hover{
+    background-color: green;
+    color: black;
+}
+.artist-card{
+    background: black;
+    color: white;
+    border: none;
+    margin-bottom:20px;
+
+}
+.artist-card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
+    }
+    footer{
+        padding: 20px;
+        background: black;
+    }
+    .search-bar{
+        max-width:400px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .trend-card{
+        background: black;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .trend-card:hover{
+        background:lightgreen;
+        color: black;
+    }
+    .artist-week{
+        padding: 60px 20px;
+    }
+    .artist-week-img{
+        width:200px;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+    .newsletter{
+        padding: 60px 20px;
+        background: black;
+    }
+    .newsletter-input{
+        padding: 10px;
+        width: 250px;
+        margin: 10px;
+    }
+    .profile-btn{
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 18px;
+        border: 2px solid lime;
+        color: lime;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    .profile-btn:hover{
+     background: lime;
+     color: black;
+    }
+    .profile-page{
+        background: lime;
+        color: white;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 60px;
+        background: linear-gradient(135deg,#1db954,#111)
+    }
+    .profile-img{
+        width: 250px;
+        height:250px;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+    .profile-info h1{
+        font-size: 48px;
+        margin-bottom:10px;
+    }
+    .tagline{
+        color:#ddd;
+        margin-bottom: 20px;
+    }
+    .profile-content{
+        padding: 40px;
+    }
+    .song-card{
+        background: black;
+        color: white;
+        padding:20px;
+        margin-top:20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .song-card:hover{
+        background:black;
+        border: 1px solid lime;
+    }
+    .streams{
+        color: lime;
+        font-weight: bold;
+    }
+    .contact-page{
+        background: black;
+        color: white;
+        padding: 60px 20px;
+    }
+    .contact-sub{
+        color: lightgrey;
+        margin-bottom: 30px;
+    }
+    .contact-box{
+        max-width: 600px;
+        margin: auto;
+        background: black;
+        padding:30px;
+        border-radius: 10px;
+        border: 1px solid darkslategrey;
+    }
+    .contact-input{
+        background: black;
+        border: 1px solid darkslategrey;
+        border: white;
+    }
+    .contact-btn{
+        width:100%;
+        padding:12px;
+        background: transparent;
+        border: 2px solid lime;
+        color: white;
+        border-radius: 30px;
+        font-size: 16px;
+
+    }
+    .custom-navbar {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 255, 120, 0.2);
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: limegreen !important;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.nav-item:hover {
+    background: limegreen;
+    color: black;
+    transform: translateY(-2px);
+}
+.custom-footer {
+    background: linear-gradient(135deg, #0a0a0a, #111);
+    color: white;
+    padding: 40px 20px 15px;
+    margin-top: 60px;
+    border-top: 1px solid rgba(0, 255, 120, 0.2);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-brand h2 {
+    color: limegreen;
+    margin-bottom: 10px;
+}
+
+.footer-brand p {
+    color: lightgray;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: limegreen;
+    transform: translateX(5px);
+}
+
+.footer-social .icons {
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: gray;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 10px;
+}
